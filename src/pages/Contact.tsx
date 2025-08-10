@@ -107,7 +107,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-900 dark:text-white">Email</h3>
-                    <p className="text-gray-600 dark:text-gray-400">contact@zemenaytech.com</p>
+                    <p className="text-gray-600 dark:text-gray-400">zemenaytechsolutions@gmail.com</p>
                   </div>
                 </div>
                 
@@ -117,7 +117,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-900 dark:text-white">Phone</h3>
-                    <p className="text-gray-600 dark:text-gray-400">+1 (555) 123-4567</p>
+                    <p className="text-gray-600 dark:text-gray-400">+251 93 220 9141</p>
                   </div>
                 </div>
                 
@@ -127,7 +127,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-900 dark:text-white">Office</h3>
-                    <p className="text-gray-600 dark:text-gray-400">San Francisco, CA</p>
+                    <p className="text-gray-600 dark:text-gray-400">Piassa, Addis Ababa, Ethiopia</p>
                   </div>
                 </div>
               </div>
@@ -157,8 +157,8 @@ export default function Contact() {
                   className="rounded-lg bg-gray-50 dark:bg-gray-800 p-4 text-center"
                 >
                   <MessageSquare className="mx-auto h-8 w-8 text-purple-600" />
-                  <p className="mt-2 text-sm font-medium text-gray-900 dark:text-white">Free</p>
-                  <p className="text-xs text-gray-600 dark:text-gray-400">Consultation</p>
+                  <p className="mt-2 text-sm font-medium text-gray-900 dark:text-white">Mon-Fri</p>
+                  <p className="text-xs text-gray-600 dark:text-gray-400">9AM-6PM</p>
                 </motion.div>
               </div>
             </div>
@@ -328,8 +328,12 @@ export default function Contact() {
             <div className="bg-gray-100 dark:bg-gray-800 h-96 flex items-center justify-center">
               <div className="text-center">
                 <MapPin className="mx-auto h-12 w-12 text-gray-400" />
-                <p className="mt-4 text-lg font-medium text-gray-900 dark:text-white">San Francisco Office</p>
-                <p className="text-gray-600 dark:text-gray-400">Interactive map would be embedded here</p>
+                <p className="mt-4 text-lg font-medium text-gray-900 dark:text-white">Addis Ababa Office</p>
+                <p className="text-gray-600 dark:text-gray-400">Piassa, Addis Ababa, Ethiopia</p>
+                <div className="mt-4 text-sm text-gray-600 dark:text-gray-400">
+                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                  <p>Saturday: 10:00 AM - 2:00 PM</p>
+                </div>
               </div>
             </div>
           </div>

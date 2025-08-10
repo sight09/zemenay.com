@@ -24,7 +24,7 @@ const navigation = {
   social: [
     {
       name: 'Facebook',
-      href: '#',
+      href: 'https://facebook.com/Zemenay_Tech_Solutions',
       icon: Facebook,
     },
     {
@@ -34,7 +34,7 @@ const navigation = {
     },
     {
       name: 'LinkedIn',
-      href: '#',
+      href: 'https://linkedin.com/company/zemenay-tech-solutions',
       icon: Linkedin,
     },
     {
@@ -69,15 +69,15 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gray-400" />
-                <span className="text-sm text-gray-600 dark:text-gray-400">contact@zemenaytech.com</span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">zemenaytechsolutions@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-gray-400" />
-                <span className="text-sm text-gray-600 dark:text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">+251 93 220 9141</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-gray-400" />
-                <span className="text-sm text-gray-600 dark:text-gray-400">San Francisco, CA</span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">Piassa, Addis Ababa, Ethiopia</span>
               </div>
             </div>
             <div className="flex space-x-6">

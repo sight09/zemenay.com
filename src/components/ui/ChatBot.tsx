@@ -6,7 +6,7 @@ const predefinedResponses = {
   greeting: "Hello! I'm here to help you with information about Zemenay Tech's services. How can I assist you today?",
   services: "We offer web development, mobile app development, UI/UX design, digital marketing, and consulting services. Which service interests you?",
   pricing: "Our pricing varies based on project scope and requirements. Would you like to schedule a consultation to discuss your specific needs?",
-  contact: "You can reach us at contact@zemenaytech.com or call +1 (555) 123-4567. We'd love to discuss your project!",
+  contact: "You can reach us at zemenaytechsolutions@gmail.com or call +251 93 220 9141. We're available Monday-Friday 9AM-6PM, Saturday 10AM-2PM. We'd love to discuss your project!",
   default: "Thanks for your question! For detailed information, please contact our team directly or schedule a consultation.",
 };
 

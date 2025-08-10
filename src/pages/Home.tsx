@@ -306,16 +306,19 @@ export default function Home() {
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none">
               {clients.map((client, index) => (
                 <motion.div
-                  key={client}
+                  key={client.name}
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="col-span-1 flex justify-center"
+                  className="col-span-1 flex flex-col items-center justify-center group cursor-pointer"
                 >
-                  <div className="text-2xl font-bold text-gray-400 dark:text-gray-600">
-                    {client}
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    {client.logo}
                   </div>
+                  <span className="mt-2 text-sm font-medium text-gray-600 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    {client.name}
+                  </span>
                 </motion.div>
               ))}
             </div>

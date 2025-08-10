@@ -7,6 +7,8 @@ import Footer from './components/layout/Footer';
 import ChatBot from './components/ui/ChatBot';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Services from './pages/Services';
+import Pricing from './pages/Pricing';
 
 function App() {
   return (
@@ -18,10 +20,10 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/pricing" element={<Pricing />} />
               <Route path="/about" element={<div className="pt-20 p-8 text-center"><h1 className="text-2xl">About Page - Coming Soon</h1></div>} />
-              <Route path="/services" element={<div className="pt-20 p-8 text-center"><h1 className="text-2xl">Services Page - Coming Soon</h1></div>} />
               <Route path="/portfolio" element={<div className="pt-20 p-8 text-center"><h1 className="text-2xl">Portfolio Page - Coming Soon</h1></div>} />
-              <Route path="/pricing" element={<div className="pt-20 p-8 text-center"><h1 className="text-2xl">Pricing Page - Coming Soon</h1></div>} />
               <Route path="/blog" element={<div className="pt-20 p-8 text-center"><h1 className="text-2xl">Blog Page - Coming Soon</h1></div>} />
             </Routes>
           </main>
