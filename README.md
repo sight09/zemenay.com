@@ -19,7 +19,10 @@ This project is a **multi-section modern website** with:
 ## 🎥 Live Demo
 [![Watch the Demo](https://img.shields.io/badge/▶-Watch%20on%20YouTube-red?style=for-the-badge)](https://youtu.be/HECnytNMq1M?si=9dggKJQ40UNpESjJ)
 
+>Note📝: This video is just uploaded before you told as about the videos content,so to now how the code is start read the
+> ## 🚀 Getting Started section on READEME file
 
+>Sorry_for_not_updating_the_video_I_didn't_get_enough_time_to_do_that_😔🙏🙏😔
 
 ---
 
